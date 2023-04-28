@@ -322,7 +322,7 @@ nav .top {
 }
 .see-more {
     display: flex;
-    width: 85%;
+    width: 95%;
     padding: 0.5rem 2rem;
     align-items: center;
     justify-content: center;
@@ -333,6 +333,12 @@ nav .top {
     border-radius: 0.5rem;
 }
 
+.see-more {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #000;
+}
 .see-more i {
 color: #FF4F38;
 }
