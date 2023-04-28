@@ -8,25 +8,29 @@
 }
 
 header {
-
+    position: absolute;
     width: 100%;
-    padding: 1rem;
     background: #fff;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-nav {
+nav .bottom {
     width: 85%;
     margin: 0 auto;
+    padding: 0.5rem;
     display: flex;
     align-items: center;
     gap: 30%;
     
 }
 
-nav .logo {
+nav .bottom .logo {
     order: 2;
         
+}
+
+nav .top {
+    display: none;
 }
 .nav-menu, .nav-btn {
     display: none;
@@ -106,7 +110,7 @@ nav .logo {
 .about-hero-wrapper {
     width: 85%;
     margin: 0 auto;
-    padding: 0.5rem  0;
+    padding: 5rem 0 0.5rem;
 }
 
 .hello {
@@ -158,6 +162,10 @@ nav .logo {
     color: #5f5f5f;
 }
 
+.logo-design {
+    padding-bottom: 1rem;
+}
+
 .logo-sub, .past-summits {
     width: 100%;
     display: flex;
@@ -197,25 +205,49 @@ nav .logo {
     color: #838383;
 }
 
+.all-testimonials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+
+}
+
 .testimonial {
-    position: relative;
+    width:100%;
+    aspect-ratio: 4/1;
+    background-image: url('./images/speaker1.jpg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #EC4327;
+    background-blend-mode: multiply;
 }
 
-.testimonial img {
-    width: 80%;
-    aspect-ratio: 2/1.5;
-
-}
 .year {
-    position: absolute;
-    top: 17px;
-    left: 50px;
+    font-family: 'Lato', sans-serif;
+    color: #fff; 
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1rem;  
+    
 }
 
-.about-summit {
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
+p.about-summit {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.75rem;  
+    
 }
 
 .partner {
@@ -268,5 +300,116 @@ footer p {
     font-weight: 700;
     font-size: 0.6rem;
     line-height: 0.8rem;  
+
+}
+
+@media only screen and (min-width:768px) {
+
+    header{
+        position: relative;
+    }
+
+     nav .top {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 auto;
+        background: #3E3E3E;
+        padding: 0.2rem 1rem;
+        gap: 1rem;
+    }
+     nav .top a {
+         font-family: 'Lato', sans-serif;
+        color: #fff;
+
+    }
+
+    
+
+    nav .bottom {
+        width: 90%;
+        display: flex;
+        padding: 0.5rem;
+        flex-direction: row-reverse;
+        justify-content: space-between;  
+       
+    }
+    nav .bottom .nav-menu {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        
+               
+    }
+
+    .hamburger {
+        display: none;
+
+    }
+
+    .nav-menu li:nth-child(6) {
+        padding: 0.5rem;
+        border: 5px solid #EC4327;
+        
+        
+    }
+    .nav-menu li:nth-child(6) a {
+        padding: 0.5rem;
+        color: #EC4327;        
+    }
+
+    .nav-link {
+        font-family: 'Lato', sans-serif;
+        color: #868686;
+    }
+
+    .hello {
+        display: none;
+    } 
+
+    .hero-about {
+        background-image: url('./images/hero_img.png');
+    }
+
+    .about-hero-wrapper h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        line-height: 3rem;
+    }
+    .about-description {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.9rem;
+        line-height: 1.5rem;  
+        padding: 1.5rem 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .logo-sub {
+        padding: 0;
+    }
+
+    .d-line {
+        width: 100%;
+        margin-bottom: 1rem;
+        
+    }
+
+    .testimonial {
+        width: 60%;
+        aspect-ratio: 2/1;
+    }
+
+    .all-testimonials {
+        flex-direction: row;
+    }
+
+
+
+
+
 
 }

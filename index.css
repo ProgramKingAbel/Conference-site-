@@ -10,23 +10,27 @@
 header {
     position: absolute;
     width: 100%;
-    padding: 1rem;
     background: #fff;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-nav {
+nav .bottom {
     width: 85%;
     margin: 0 auto;
+    padding: 0.5rem;
     display: flex;
     align-items: center;
     gap: 30%;
     
 }
 
-nav .logo {
+nav .bottom .logo {
     order: 2;
         
+}
+
+nav .top {
+    display: none;
 }
 .nav-menu, .nav-btn {
     display: none;
@@ -123,6 +127,20 @@ nav .logo {
     font-size: 1.8rem;
     line-height: 2rem;
     margin-bottom: 2rem;
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image:
+        -webkit-linear-gradient(
+        45deg,
+        #f40001,
+        #ec5242,
+        rgb(255, 64, 0),
+        rgb(255, 123, 0),
+        #a00000,
+        #f65112,
+        #ec5242
+        );
 
 }
 .description {
@@ -317,4 +335,205 @@ nav .logo {
 
 .see-more i {
 color: #FF4F38;
+}
+
+ footer, .join-btn2, .partner{
+    display: none;
+}
+
+/* Media Query for desktop Version  */
+
+@media only screen and (min-width:768px) {
+
+    header{
+        position: relative;
+    }
+
+     nav .top {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 auto;
+        background: #3E3E3E;
+        padding: 0.2rem 1rem;
+        gap: 1rem;
+    }
+     nav .top a {
+         font-family: 'Lato', sans-serif;
+        color: #fff;
+
+    }
+
+    
+
+    nav .bottom {
+        width: 90%;
+        display: flex;
+        padding: 0.5rem;
+        flex-direction: row-reverse;
+        justify-content: space-between;  
+       
+    }
+    nav .bottom .nav-menu {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        
+               
+    }
+
+    .hamburger {
+        display: none;
+
+    }
+
+    .nav-menu li:nth-child(6) {
+        padding: 0.5rem;
+        border: 5px solid #EC4327;
+        
+        
+    }
+    .nav-menu li:nth-child(6) a {
+        padding: 0.5rem;
+        color: #EC4327;        
+    }
+
+    .nav-link {
+        font-family: 'Lato', sans-serif;
+        color: #868686;
+    }
+
+    .hero-wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image:
+        -webkit-linear-gradient(
+        45deg,
+        #f40001,
+        #ec5242,
+        rgb(255, 64, 0),
+        rgb(255, 123, 0),
+        #a00000,
+        #f65112,
+        #ec5242
+        );
+    }
+
+    .description {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.2rem;    
+    }
+
+    .date {
+        font-size: 2.7rem;
+    }
+
+    .location {
+        font-size: 1.5rem;
+    }
+
+    .all-programs {
+        display: flex;
+        gap: 0.6rem;
+    }
+    .program-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .program-desc {
+        text-align: center;
+    }
+
+    .join-btn {
+        display: none;
+    }
+
+    .join-btn2 {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        background: transparent;
+        color: #fff;
+        padding: 1.25rem;
+        margin-top: 1rem;
+        text-decoration: underline;
+    }
+
+    .all-speakers {
+        display: flex;
+        
+    }
+
+    .see-more {
+        display: none;
+    }
+
+    .partner {
+        width: 100%;
+        padding: 1rem;
+        background: #414246;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .partner h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        color: #fff;
+        padding: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    .partner hr {
+        width: 15%;
+        border: 2px solid #A04038;
+        margin-bottom: 1rem;
+       
+    }
+    .partner-logos {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    
+    
+    footer {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+    
+    footer p {
+        font-family: 'Lato', sans-serif;
+        color: #3B3E45; 
+        font-weight: 700;
+        font-size: 0.6rem;
+        line-height: 0.8rem;  
+    
+    }
+    
+
+
 }
