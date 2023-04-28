@@ -2,7 +2,7 @@
 
 <div align="center">  
 
-  <h3><b>Abel Morara Portfolio </b></h3>
+  <h3><b>Conference Webpage </b></h3>
 
 </div>
 
@@ -24,7 +24,7 @@
 # 📖 [Abel-Morara-Portfolio] <a name="about-project"></a>
 
 
-**Abel Morara Portfolio** is a responsive web portfolio application where a developer can keep record of their previous projects, accoplishments, skills, contacts and CV to make it easier for them to display and present their developer talents.
+**Conference Website ** is a responsive web  application wherean organization gives information about their current state of events.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,24 +52,22 @@
 
 This is the mobile responsive version for now as it is build using the mobile first development approach.
 
-- **[Header Section]**
+- **[Home Section]**
 
-This is the banner section with beautifully customized images and brief description of who the developer is.
-
-- **[Works Section]**
-
-This is the works area with beautifully customized images and brief description of sample projects the developer has worked on.
+This is the works area with beautifully customized images and brief description of coming up conferences.
 
 - **[About Section]**
 
-This is the details of how to get in touch with the developer.
+This is the details of event activities.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Go to Live site](https://programkingabel.github.io/)
+- [Go to Live site](http://conference.org/)
+
+- [Go to Live site video Demonstration](https://www.loom.com/share/0dee6dd00dd146a0bc8ebe0f43280d72)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,8 +181,7 @@ Github Pages:
 
 
 - [ ] **[Add Live project samples]**
-- [ ] **[Add dynamic widgets]**
-- [ ] **[Develop Dekstop Version]**
+- [ ] **[Develop More Dynamic content]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
