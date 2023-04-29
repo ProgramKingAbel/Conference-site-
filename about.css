@@ -239,6 +239,7 @@ footer p {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  padding: 1rem;
 }
 
 .testimonial {
@@ -301,9 +302,9 @@ p.about-summit {
 }
 
 footer {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  padding: 4rem 0;
+  padding: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -402,6 +403,7 @@ footer i {
   footer {
     background: #2e2e2e;
     width: 100%;
+    padding: 1rem 0;
   }
 
   footer p {
@@ -410,7 +412,8 @@ footer i {
 
   footer i {
     color: #fff;
-    font-size: 7rem;
+    font-size: 4rem;
+    
   }
 
   .logo-sub {
@@ -428,7 +431,7 @@ footer i {
   }
 
   .all-testimonials {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     flex-direction: row;
   }

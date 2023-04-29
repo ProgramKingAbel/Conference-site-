@@ -208,7 +208,7 @@ If you like this project follow me on Github and give it a star to motivate buil
 
 I would like to thank the Microverse Community, My stand up team and coding partners who we work tirelessly to make it possible.
 
-Lots of love and appreciation to [Cindy Shin] (https://www.behance.net/adagio07) the [author of the original design] (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), in Creative Commons platform.
+Lots of love and appreciation to [Cindy Shin](https://www.behance.net/adagio07) the [author] of the original [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) , in Creative Commons platform.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

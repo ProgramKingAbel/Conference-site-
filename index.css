@@ -162,16 +162,16 @@ nav .top {
 }
 
 .date {
-  font-family: 'Gothic A1', sans-serif;
-  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.5px;
   font-size: 1.1rem;
   color: #595959;
-  letter-spacing: -0.08em;
   padding-bottom: 0.2rem;
 }
 
 .location {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 0.7rem;
   color: #868686;
@@ -207,8 +207,8 @@ nav .top {
 }
 
 .program-wrapper hr {
-  width: 15%;
-  border: 2px solid #a04038;
+  width: 45px;
+  border: 1px solid #ec5242;
   margin-bottom: 2rem;
 }
 
@@ -278,8 +278,8 @@ nav .top {
 
 .speaker-wrapper hr {
   width: 45px;
-  border: 1.5px solid #a04038;
-  margin-bottom: 1rem;
+  border: 1px solid #ec5242;
+  margin-bottom: 1.5rem;
 }
 
 .speaker-details {
@@ -304,6 +304,7 @@ nav .top {
 
 .speaker-details .info .s-title {
   font-family: 'Lato', sans-serif;
+  font-style: italic;
   font-weight: 700;
   font-size: 0.6rem;
   line-height: 1rem;
@@ -359,16 +360,28 @@ footer,
     position: relative;
   }
 
-  nav .top {
+  nav .upper {
+    width: 100%;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: flex-end;
-    margin: 0 auto;
     background: #3e3e3e;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.5rem ;
     gap: 1rem;
   }
+
+  nav .top {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+    background: #3e3e3e;
+    
+    gap: 1rem;
+  }
+
 
   nav .top a {
     font-family: 'Lato', sans-serif;
@@ -410,9 +423,9 @@ footer,
   }
 
   .hero-wrapper h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 800;
-    line-height: 3rem;
+    line-height: 3.5rem;
     background-clip: initial;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -432,16 +445,17 @@ footer,
   .description {
     width: 68%;
     font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 1.6rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 
   .date {
-    font-size: 2.7rem;
+    font-size: 2rem;
   }
 
   .location {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
   }
 
   .all-programs {
@@ -523,7 +537,7 @@ footer,
   footer {
     width: 100%;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
