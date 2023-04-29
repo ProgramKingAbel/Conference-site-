@@ -64,8 +64,7 @@ const data = [
 const seeMoreBtn = document.querySelector('.see-more');
 
 // set number of initial speakers to be displayed
-const width = screen.width;
-console.log(width);
+
 // const initialSpeakers=2;
 // set number of speakers to be loaded on click
 const loadSpeakers = 2;
@@ -77,10 +76,7 @@ function loadInitialSpeakers(num) {
   const initialSpeakers = num;
 
   data.forEach((item, i) => {
-
-    
     if (counter < initialSpeakers) {
-
       // get parent container
       const allSpeakers = document.querySelector('.all-speakers');
       // create container to hold speaker details and append
@@ -109,11 +105,11 @@ function loadInitialSpeakers(num) {
   // console.log(counter);
 }
 
-window.addEventListener("load", function () {
-  if (screen.width < 767) {
-    loadInitialSpeakers(2);
-  } else {
+window.addEventListener('load', () => {
+  if (window.matchMedia('(min-width: 768px)').matches) {
     loadInitialSpeakers(data.length);
+  } else {
+    loadInitialSpeakers(2);
   }
 });
 

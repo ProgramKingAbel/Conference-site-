@@ -174,8 +174,6 @@ nav .top {
   background: #fff;
   margin-bottom: 1rem;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
-
-
 }
 
 .partner hr {
@@ -205,10 +203,9 @@ nav .top {
 }
 
 .logo-sub hr:nth-child(2) {
-    width: 45px;
-    border: 1.5px solid #a04038;
-    margin-bottom: 1rem;
-  
+  width: 45px;
+  border: 1.5px solid #a04038;
+  margin-bottom: 1rem;
 }
 
 footer p {
@@ -260,7 +257,6 @@ footer p {
   background-blend-mode: multiply;
 }
 
-
 .year {
   font-family: 'Lato', sans-serif;
   color: #fff;
@@ -285,8 +281,6 @@ p.about-summit {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 .partner h2 {
@@ -306,21 +300,20 @@ p.about-summit {
   flex-wrap: wrap;
 }
 
-  footer {
-    width: 80%;
-    margin: 0 auto;
-    padding: 4rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10%;
-    background-color: #fff;
+footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  background-color: #fff;
 }
 
 footer i {
   color: #3e3e3e;
   font-size: 5rem;
-  
 }
 
 @media only screen and (min-width: 768px) {
@@ -404,11 +397,10 @@ footer i {
 
   .partner {
     display: none;
-
   }
 
   footer {
-    background: #2E2E2E;
+    background: #2e2e2e;
     width: 100%;
   }
 
@@ -436,9 +428,8 @@ footer i {
   }
 
   .all-testimonials {
-  width: 80%;
-  margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
     flex-direction: row;
-
   }
 }
