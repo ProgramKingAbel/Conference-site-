@@ -45,22 +45,42 @@ const data = [
     title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
+  {
+
+    img: './images/speaker1.jpg',
+    name: 'Abel Morara',
+    title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+  },
+  {
+
+    img: './images/speaker1.jpg',
+    name: 'Abel Morara',
+    title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+  },
 ];
 
 const seeMoreBtn = document.querySelector('.see-more');
 
 // set number of initial speakers to be displayed
-
-const initialSpeakers = 2;
-
+const width = screen.width;
+console.log(width);
+// const initialSpeakers=2;
 // set number of speakers to be loaded on click
 const loadSpeakers = 2;
 
 // loop through data
-function loadInitialSpeakers() {
+function loadInitialSpeakers(num) {
   let counter = 0;
+
+  const initialSpeakers = num;
+
   data.forEach((item, i) => {
+
+    
     if (counter < initialSpeakers) {
+
       // get parent container
       const allSpeakers = document.querySelector('.all-speakers');
       // create container to hold speaker details and append
@@ -88,7 +108,14 @@ function loadInitialSpeakers() {
   });
   // console.log(counter);
 }
-loadInitialSpeakers();
+
+window.addEventListener("load", function () {
+  if (screen.width < 767) {
+    loadInitialSpeakers(2);
+  } else {
+    loadInitialSpeakers(data.length);
+  }
+});
 
 function loadData() {
   const currentlyDisplayed = document.querySelectorAll('.speaker-details').length;

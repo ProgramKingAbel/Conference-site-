@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 * {
   margin: 0;
   padding: 0;
@@ -125,9 +127,9 @@ nav .top {
 }
 
 .about-hero-wrapper h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cocogoose', sans-serif;
   color: #ff5438;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.8rem;
   line-height: 2rem;
   margin-bottom: 2rem;
@@ -168,8 +170,8 @@ nav .top {
 }
 
 .partner hr {
-  width: 15%;
-  border: 2px solid #a04038;
+  width: 45px;
+  border: 1.5px solid #a04038;
   margin-bottom: 1rem;
 }
 
@@ -200,8 +202,8 @@ nav .top {
 
 footer p {
   font-family: 'Lato', sans-serif;
-  color: #3b3e45;
-  font-weight: 700;
+  color: #000;
+  font-weight: 500;
   font-size: 0.6rem;
   line-height: 0.8rem;
 }
@@ -233,7 +235,7 @@ footer p {
 
 .testimonial {
   width: 100%;
-  aspect-ratio: 4/1;
+  aspect-ratio: 4/2;
   background-image: url('./images/speaker1.jpg');
   background-size: contain;
   background-position: center center;
@@ -265,12 +267,14 @@ p.about-summit {
 
 .partner {
   width: 100%;
-  padding: 1rem;
+  padding: 2.2rem 1.5rem;
   background: #414246;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  
 }
 
 .partner h2 {
@@ -290,12 +294,15 @@ p.about-summit {
   flex-wrap: wrap;
 }
 
-footer {
-  width: 85%;
-  margin: 0 auto;
-  padding: 1rem 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    background-color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -377,6 +384,20 @@ footer {
     margin-bottom: 2rem;
   }
 
+  .partner {
+    display: none;
+
+  }
+
+  footer {
+    background: #2E2E2E;
+    width: 100%;
+  }
+
+  footer p {
+    color: #fff;
+  }
+
   .logo-sub {
     padding: 0;
   }
@@ -392,6 +413,9 @@ footer {
   }
 
   .all-testimonials {
+  width: 80%;
+  margin: 0 auto;
     flex-direction: row;
+
   }
 }

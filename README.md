@@ -21,10 +21,10 @@
 
 
 
-# 📖 [Abel-Morara-Portfolio] <a name="about-project"></a>
+# 📖 [Junior Achievement Kenya Conference Website] <a name="about-project"></a>
 
 
-**Conference Website ** is a responsive web  application wherean organization gives information about their current state of events.
+**Junior Achievement Kenya ** is an organization that seeks to narture local young talents with enterprenurial mind. This website gives information about their current state of events, conferences and a general view of their organization.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,7 +65,7 @@ This is the details of event activities.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Go to Live site](http://conference.org/)
+- [Go to Live site](https://programkingabel.github.io/Conference-site-/)
 
 - [Go to Live site video Demonstration](https://www.loom.com/share/0dee6dd00dd146a0bc8ebe0f43280d72)
 
@@ -207,6 +207,8 @@ If you like this project follow me on Github and give it a star to motivate buil
 
 
 I would like to thank the Microverse Community, My stand up team and coding partners who we work tirelessly to make it possible.
+
+Lots of love and appreciation to [Cindy Shin] (https://www.behance.net/adagio07) the [author of the original design] (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), in Creative Commons platform.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

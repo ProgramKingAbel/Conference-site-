@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 * {
   margin: 0;
   padding: 0;
@@ -123,7 +125,7 @@ nav .top {
 }
 
 .hero-wrapper h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cocogoose', sans-serif;
   color: #ff5438;
   font-weight: 700;
   font-size: 1.8rem;
@@ -148,6 +150,7 @@ nav .top {
 .description {
   font-family: 'Lato', sans-serif;
   color: #515151;
+  width: 89%;
   background: #f8f8f8;
   font-weight: 400;
   font-size: 0.75rem;
@@ -274,9 +277,9 @@ nav .top {
 }
 
 .speaker-wrapper hr {
-  width: 15%;
-  border: 2px solid #a04038;
-  margin-bottom: 2rem;
+  width: 45px;
+  border: 1.5px solid #a04038;
+  margin-bottom: 1rem;
 }
 
 .speaker-details {
@@ -408,7 +411,7 @@ footer,
 
   .hero-wrapper h1 {
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 800;
     line-height: 3rem;
     background-clip: initial;
     -webkit-background-clip: text;
@@ -427,9 +430,10 @@ footer,
   }
 
   .description {
+    width: 68%;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2.2rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
   }
 
   .date {
@@ -484,12 +488,14 @@ footer,
 
   .partner {
     width: 100%;
-    padding: 1rem;
+    padding: 2.2rem 1rem;
     background: #414246;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
+    
   }
 
   .partner h2 {
@@ -503,8 +509,8 @@ footer,
   }
 
   .partner hr {
-    width: 15%;
-    border: 2px solid #a04038;
+    width: 45px;
+    border: 1.5px solid #a04038;
     margin-bottom: 1rem;
   }
 
@@ -518,7 +524,7 @@ footer,
   footer {
     width: 100%;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 4rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -529,7 +535,7 @@ footer,
     font-family: 'Lato', sans-serif;
     color: #3b3e45;
     font-weight: 700;
-    font-size: 0.6rem;
+    font-size: 1rem;
     line-height: 0.8rem;
   }
 }
